@@ -1,7 +1,6 @@
 import usb_midi
 import adafruit_midi
 from music_theory.note import Note
-from music_theory.interval import Interval
 from music_theory.chord import Chord
 
 midi = adafruit_midi.MIDI(midi_in=usb_midi.ports[0], midi_out=usb_midi.ports[1], in_channel=(1, 2, 3), out_channel=0)
